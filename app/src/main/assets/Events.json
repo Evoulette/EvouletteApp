@@ -1,0 +1,17 @@
+[{"id":"1",
+  "name":"Kartfahren",
+  "location":"Frankfurt",
+  "date":"20.5.19",
+  "time":"20:00",
+  "category":"Action",
+  "description":"Eine voll coole Sache",
+  "price":40},
+  {"id":"2",
+    "name":"Kartfahren",
+    "location":"Frankfurt",
+    "date":"20.5.19",
+    "time":"19:00",
+    "category":"Action",
+    "description":"Eine voll coole Sache",
+    "price":20}
+]

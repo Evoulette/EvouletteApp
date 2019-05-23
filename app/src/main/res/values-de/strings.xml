@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Evoulette</string>
+    <string name="register">Registrierung</string>
+    <string name="password">Passwort</string>
+    <string name="participants">Teilnehmer</string>
+    <string name="radius">Umgebung</string>
+    <string name="budget">Budget</string>
+    <string name="date">Datum</string>
+    <string name="time">Zeit</string>
+    <string name="location">Ort</string>
+    <string name="description">Beschreibung</string>
+    <string name="result">Ergebnis</string>
+    <string name="redo">NOCHMAL</string>
+    <string name="accept">Akzeptieren</string>
+    <string name="title_activity_ticket">Ticket</string>
+    <string name="title_activity_search">Suche</string>
+    <string name="title_activity_result">Ergebins</string>
+    <string name="navigation_drawer_open">Navigation öffnen</string>
+    <string name="navigation_drawer_close">Navigation schliessen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="pref_header_general">Voreinstellungen</string>
+    <string name="pref_title_display_name">Standard Ort</string>
+    <string name="action_sign_in_short">Einloggen</string>
+    <string name="attempts_text">Versuche</string>
+    <string name="password_text">Passwort</string>
+    <string name="delete_ticket">Ticket löschen</string>
+    <string name="load_param">Parameter laden</string>
+    <string name="redo">NOCHMAL</string>
+    <string name="logincorrect">Passwort und Username korrekt</string>
+    <string name="loginnotcorrect">User und Passwort nicht korrekt</string>
+    <string name="notification_content">Neues Ticket in deinem Wallet</string>
+</resources>

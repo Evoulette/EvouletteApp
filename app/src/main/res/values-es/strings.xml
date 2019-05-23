@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Evoulette</string>
+    <string name="navigation_drawer_open">Navegación abierta</string>
+    <string name="register">Registration</string>
+    <string name="action_settings">opciones</string>
+    <string name="password">contraseña</string>
+    <string name="navigation_drawer_close">Navegación abierta</string>
+    <string name="participants">Partícipes</string>
+    <string name="radius">Radio</string>
+    <string name="budget">presupuestal</string>
+    <string name="date">Fecha</string>
+    <string name="time">Tiempo</string>
+    <string name="location">Ubicación</string>
+    <string name="description">descripción</string>
+    <string name="result">consecuencia</string>
+    <string name="redo" translatable="false">de nuevo</string>
+    <string name="accept">aceptar</string>
+    <string name="title_activity_ticket">billete</string>
+    <string name="title_activity_search">búsqueda</string>
+    <string name="title_activity_result">consecuencia</string>
+    <string name="attempts_text">intentos</string>
+    <string name="password_text">contraseña</string>
+    <string name="delete_ticket">Borrar Billete</string>
+    <string name="load_param">parámetro de carga</string>
+    <string name="action_sign_in_short">de acceso</string>
+    <string name="title_activity_settings">parametrización</string>
+    <string name="pref_header_general">preajustes</string>
+    <string name="pref_title_display_name">localización estándar</string>
+    <string name="logincorrect">passwordo y usernombre es correcto</string>
+    <string name="loginnotcorrect">passwordo y usernombre no es correcto</string>
+    <string name="notification_content">nuevo ticketo en la walleto</string>
+</resources>

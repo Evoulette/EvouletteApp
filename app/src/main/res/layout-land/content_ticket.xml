@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TicketActivity"
+    tools:showIn="@layout/activity_ticket">
+
+    <ImageView
+        android:id="@+id/eventpageCode_imageView"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="273dp"
+        android:layout_marginLeft="273dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginRight="273dp"
+        android:contentDescription="@string/ticketqr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/eventpageHeadline_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/eventname"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/eventpageLocation_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/location"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventpageHeadline_textView" />
+
+    <TextView
+        android:id="@+id/eventpageDate_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/date"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventpageLocation_textView" />
+
+    <TextView
+        android:id="@+id/eventpageTime_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/time"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventpageDate_textView" />
+
+    <TextView
+        android:id="@+id/eventpageDescription_TextView"
+        android:layout_width="199dp"
+        android:layout_height="199dp"
+        android:layout_marginBottom="83dp"
+        android:text="@string/lorem_ipsum"
+        app:layout_constraintBottom_toTopOf="@+id/eventpageCode_imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventpageLocation_textView" />
+
+
+</android.support.constraint.ConstraintLayout>
