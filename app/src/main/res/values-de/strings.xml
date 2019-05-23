@@ -27,7 +27,6 @@
     <string name="password_text">Passwort</string>
     <string name="delete_ticket">Ticket löschen</string>
     <string name="load_param">Parameter laden</string>
-    <string name="redo">NOCHMAL</string>
     <string name="logincorrect">Passwort und Username korrekt</string>
     <string name="loginnotcorrect">User und Passwort nicht korrekt</string>
     <string name="notification_content">Neues Ticket in deinem Wallet</string>

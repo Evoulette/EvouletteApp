@@ -10,6 +10,8 @@ import android.util.Log;
 
 import com.example.evouletteapp.objects.Ticket;
 
+import java.io.File;
+
 public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String TAG = "DatabaseHelper";
 
@@ -20,15 +22,15 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String Col5 = "time";
     public static final String Col6 = "description";
 
-    public static final String path = Environment.getExternalStorageDirectory().getPath();
-
-
     public static final String TABLE_NAME = "Tickets";
+
+    public static final File path = new File (Environment.getExternalStorageDirectory(),TABLE_NAME);
     
 
     public DatabaseHelper( Context context) {
-        super(context, path+TABLE_NAME, null, 7);
-        SQLiteDatabase.openOrCreateDatabase(path +TABLE_NAME,null );
+        super(context, path+TABLE_NAME, null, 1);
+        SQLiteDatabase.openOrCreateDatabase(path, null );
+        Log.i(TAG, path.toString());
     }
 
     @Override
@@ -72,6 +74,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     public Cursor getData(){
+
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "SELECT * FROM " + TABLE_NAME;
         Cursor data = db.rawQuery(query, null);
